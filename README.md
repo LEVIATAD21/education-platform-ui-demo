@@ -1,3 +1,5 @@
+![Motion Banner](assets/motion-banner.gif)
+
 # Planejamento: interface de plataforma educacional
 
 > **Status:** planejamento privado. Não inclui instalação de LMS, migração de banco de dados ou acesso a servidores.
