@@ -1,0 +1,1 @@
+import assert from 'node:assert/strict'; import { calculateProgress, isCorrectAnswer } from './app.mjs'; assert.equal(calculateProgress([{done:true},{done:false}]), 50); assert.equal(isCorrectAnswer('semantica'), true); assert.equal(isCorrectAnswer('cor'), false); console.log('education-platform-ui-demo: testes aprovados');

@@ -1,17 +1,24 @@
-![Motion Banner](assets/motion-banner.gif)
+# Plataforma Educacional
 
-# Planejamento: interface de plataforma educacional
+> **Demo de portfólio independente.** Não representa trabalho contratado, dados de cliente, integração produtiva ou resultado comercial.
 
-> **Status:** planejamento privado. Não inclui instalação de LMS, migração de banco de dados ou acesso a servidores.
+Interface demonstrativa para acompanhar trilhas, aulas e avaliações rápidas.
 
-## Objetivo
+## Funcionalidades demonstradas
 
-Desenhar a experiência de uma plataforma de cursos com navegação por trilhas, aulas, progresso e avaliações, preservando a separação entre conteúdo, interface e administração.
+- Trilha de aprendizagem com progresso persistido no navegador.
+- Abertura de aula e conclusão local.
+- Questão de checagem com retorno imediato.
 
-## Fluxos previstos
+## Executar e revisar
 
-O aluno acessa o painel, abre módulos, consulta aulas, realiza atividades e acompanha progresso. O administrador organiza conteúdos e usuários em uma área separada. Integrações com LMS, banco de dados e hospedagem exigem análise técnica própria.
+```bash
+npm test
+npm run review
+```
 
-## Critérios de aceite
+Os testes cobrem a lógica central da demo. A revisão estática confere os arquivos obrigatórios, a identificação de demo e a ausência de arquivos de ambiente.
 
-Os fluxos principais funcionam em celular e desktop, com estados claros para progresso, conteúdo indisponível e suporte.
+## Limites
+
+Dados, contatos e números apresentados pela interface são estritamente ilustrativos. Integrações, pagamento, hospedagem, banco de dados e dados de terceiros exigem escopo e autorização próprios.

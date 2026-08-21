@@ -1,0 +1,10 @@
+{
+  "name": "education-platform-ui-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests.mjs",
+    "review": "node review.mjs"
+  }
+}
